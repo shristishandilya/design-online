@@ -1,0 +1,7 @@
+@import "color.css";
+
+.color-card{
+    height: 70px;
+    width: 70px;
+    background-color: #3f5866;
+}

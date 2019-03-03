@@ -1,0 +1,63 @@
+
+
+select{
+    -webkit-appearance: none;
+    background-image: url(../images/dropdown.png);
+    background-position: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.form-control{
+    height:56px !important;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    outline: 0;
+    border:0;
+}
+.map-link:hover, .map-link:focus{
+    text-decoration: none;
+}
+
+.map-link span{
+    text-decoration: underline;
+}
+
+/*distributors col*/
+
+
+/* Bootstrap 4 text input with search icon */
+.has-search{
+    margin-top:2.96em;
+    position: relative;
+}
+
+.has-search .form-control {
+    padding-right: 2.375rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.has-search .search-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    right: 3px;
+    top: 10px;
+    background: url("../images/search.png") center center no-repeat;
+}
+
+.distributors-list{
+    border-radius: 10px;
+    max-height: 501px;
+    overflow-y: auto;
+    padding-right: 2.5em;
+}
+
+.distributors-list li{
+    list-style-type: decimal;
+}

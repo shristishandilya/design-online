@@ -1,0 +1,7 @@
+@import "color.css";
+
+.products-card-2{
+    border-radius: 10px;
+    background-color: var(--gray-1);
+
+}
